@@ -33,6 +33,27 @@ cd chiral-coarse-quantum
 # Install Python dependencies
 pip install -r requirements.txt
 
+
+
+使用说明
+将上述所有文件按目录结构放入仓库。
+安装依赖：
+Bash
+pip install -r requirements.txt
+运行示例：
+Bash
+python examples/run_spin_demo.py
+python examples/run_cmb_demo.py
+python examples/run_linguistic_demo.py
+运行测试：
+Bash
+pytest tests/
+编译并运行 C++ 版本：
+Bash
+cd cpp
+make
+./spin_network --N 100 --sweeps 100000
+
 # Run demos
 python examples/run_spin_demo.py
 python examples/run_cmb_demo.py
