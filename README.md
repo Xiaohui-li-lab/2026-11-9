@@ -27,7 +27,7 @@ the theory. Results should be interpreted critically.
 
 ```bash
 # Clone the repository
-git clone https://github.com/xiaohui-li-lab/chiral-coarse-quantum.git
+git clone https://github.com/xiaohui-li-lab/2026-11-9.git
 cd chiral-coarse-quantum
 
 # Install Python dependencies
